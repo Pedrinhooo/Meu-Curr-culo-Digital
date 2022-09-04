@@ -1,0 +1,76 @@
+main{
+    display: flex;
+}
+ 
+#perfil{
+    display: flex;
+    border-style: ridge;
+    border-width: 1px;
+    color: black;
+    justify-content: space-between;
+    background-color: #07a663;
+    height: auto;
+    min-width: 65%;
+ 
+}
+ 
+#dados{
+    padding-left: 9%;
+    padding-top: 2%;
+ 
+}
+ 
+#foto{
+    overflow: hidden
+ 
+}
+#fotinha{
+    height: auto;
+    max-width: 100%;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+   
+}
+ 
+#fotinha:hover{
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+ 
+.fonte{
+    color: white;
+    font-size: 250%;
+    line-height: 1%;
+}
+.fonte2{
+    color: white;
+    font-size: 125%;
+   
+}
+.paragrafo{
+    color: white;
+    font-size: 120%;
+}
+ 
+.parallax{
+    background-image: url(https://th.bing.com/th/id/OIP.uKQHC8IOn1GwV1kVtDRIPAHaEK?w=307&h=180&c=7&r=0&o=5&pid=1.7);
+    min-height: 200px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ 
+.vazio1{
+    margin-left: auto;
+}
+.vazio2{
+    margin-right: auto;
+}
+ 
+#tudo{
+    line-height: 1%;
+}
+ 
