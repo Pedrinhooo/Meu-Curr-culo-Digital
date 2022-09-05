@@ -35,7 +35,8 @@ main{
 }
  
 #foto{
-    overflow: hidden
+    overflow: hidden;
+    border-radius: 0% 0% 0% 100%;
  
 }
 #fotinha{
@@ -102,6 +103,7 @@ main{
     display: flex;
     padding-top: 180px;
     justify-content:space-around;
+    line-height: 1%;
 }
 
 .cardizinho{
