@@ -1,17 +1,31 @@
+body{
+    background-color: #347258;
+}
+
 main{
     display: flex;
+
 }
  
 #perfil{
     display: flex;
-    border-style: ridge;
-    border-width: 1px;
-    color: black;
+    border-style: ridge black;
+    border-width: 1px black;
     justify-content: space-between;
     background-color: #07a663;
     height: auto;
     min-width: 65%;
  
+}
+
+#formulario{
+    display: flex;
+    border-style: ridge;
+    border-width: 1px;
+    color: black;
+    justify-content: space-between;
+    height: auto;
+    min-width: 30%;
 }
  
 #dados{
@@ -25,7 +39,7 @@ main{
  
 }
 #fotinha{
-    height: auto;
+    height: 100%;
     max-width: 100%;
     -moz-transition: all 0.5s;
     -webkit-transition: all 0.5s;
@@ -54,15 +68,6 @@ main{
     font-size: 120%;
 }
  
-.parallax{
-    background-image: url(https://th.bing.com/th/id/OIP.uKQHC8IOn1GwV1kVtDRIPAHaEK?w=307&h=180&c=7&r=0&o=5&pid=1.7);
-    min-height: 200px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
- 
 .vazio1{
     margin-left: auto;
 }
@@ -70,7 +75,42 @@ main{
     margin-right: auto;
 }
  
-#tudo{
-    line-height: 1%;
+.link{
+   color: white;
+   text-decoration: none;
+   font-size: 130%;
+   padding-top: 20px;
+   padding-bottom: 15px;
+   
 }
- 
+
+.link:hover{
+    color: #0C5939;
+}
+
+.icone{
+    height: 50px;
+}
+
+.parallax{
+    background-image: url(https://neilpatel.com/wp-content/uploads/2017/12/codigos-html-para-paginas-web.jpeg);
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#tudo{
+ display: flex;
+}
+
+#cardizinho{
+    display: flex;
+    border-style: ridge black;
+    border-width: 10px black;
+    justify-content: space-around;
+    background-color: white;
+    height: 150px;
+    width: 500px;
+}
