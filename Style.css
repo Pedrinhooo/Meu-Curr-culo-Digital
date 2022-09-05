@@ -94,23 +94,37 @@ main{
 
 .parallax{
     background-image: url(https://neilpatel.com/wp-content/uploads/2017/12/codigos-html-para-paginas-web.jpeg);
-    min-height: 500px;
+    min-height: 450px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}
-
-#tudo{
- display: flex;
-}
-
-#cardizinho{
     display: flex;
-    border-style: ridge black;
-    border-width: 10px black;
-    justify-content: space-around;
-    background-color: white;
-    height: 150px;
-    width: 500px;
+    padding-top: 180px;
+    justify-content:space-around;
 }
+
+.cardizinho{
+    display: flex;
+    background-color: white;
+    height: 250px;
+    width: 500px;
+    transition: all 0.5s;
+    cursor: pointer;
+    border-radius: 7%;
+    border-style: dashed black;
+    border-width: 25px;
+    align-items: center;
+    justify-content: center;
+}
+
+.cardizinho:hover{
+    -webkit-filter: drop-shadow(35px 30px 25px rgba(0,0,0,.5));
+    filter: drop-shadow(35px 30px 25px rgba(0,0,0,.5));
+}
+
+.paragrafo2{
+    color: black;
+    font-size: 200%;
+}
+
